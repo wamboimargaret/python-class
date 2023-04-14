@@ -1,5 +1,7 @@
-def add (a,b):
-    answer = a+b 
+def sum (*numbers):
+    answer = 0
+    for number in numbers:
+        answer+=number
     return answer
 
 def subtract (c,d):
@@ -17,3 +19,6 @@ def multiply(g,h):
 def remainder(i,j):
     answer = i%j
     return answer 
+    
+
+
