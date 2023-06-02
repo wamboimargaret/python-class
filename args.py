@@ -2,7 +2,7 @@ def my_country(country = "Rwanda"):
     print(f"Hello from {country}")
 
     # create a function that accepts ant number of intergers and returns the result of multiplying all of them.
-def product(*nums):
+def product(nums):
     answer = 1
     for num in nums:
         answer*=num
